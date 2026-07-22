@@ -14,37 +14,37 @@ pre : " <b> 5.5.6 </b> "
 
 - Select create API
 
-![alt text](image.png)
+![alt text](/AWS-Workshop/images/5-Workshop/5.5-AI-Security-Analyst-&-Web-Admin/5.5.6-API Gateway/$3.png)
 
 ### Create HTTP API 
 
 - Select **build -> Enter API name -> Review and create -> Create**
 
-![alt text](image-1.png)
+![alt text](/AWS-Workshop/images/5-Workshop/5.5-AI-Security-Analyst-&-Web-Admin/5.5.6-API Gateway/-1$3.png)
 
 ### Create Integration with AWS Lambda
 
 - Fill in the information to link with Lambda
 
-![alt text](image-2.png)
+![alt text](/AWS-Workshop/images/5-Workshop/5.5-AI-Security-Analyst-&-Web-Admin/5.5.6-API Gateway/-2$3.png)
 
 - API Gateway is linked with Lambda Function
 
-![alt text](image-3.png)
+![alt text](/AWS-Workshop/images/5-Workshop/5.5-AI-Security-Analyst-&-Web-Admin/5.5.6-API Gateway/-3$3.png)
 
 ### Create Route for API
 
 - Select **route -> create**
 
-![alt text](image-4.png)
+![alt text](/AWS-Workshop/images/5-Workshop/5.5-AI-Security-Analyst-&-Web-Admin/5.5.6-API Gateway/-4$3.png)
 
 ### Configure CORS
 
-![alt text](image-5.png)
+![alt text](/AWS-Workshop/images/5-Workshop/5.5-AI-Security-Analyst-&-Web-Admin/5.5.6-API Gateway/-5$3.png)
 
 ### Check Stage
 
-![alt text](image-6.png)
+![alt text](/AWS-Workshop/images/5-Workshop/5.5-AI-Security-Analyst-&-Web-Admin/5.5.6-API Gateway/-6$3.png)
 
 ### Test API Gateway
 
@@ -52,6 +52,6 @@ pre : " <b> 5.5.6 </b> "
 
 - Enter the URL **https://lqlv4r23xe.execute-api.ap-southeast-1.amazonaws.com/dev/analyze-url**
 
-![alt text](image-7.png)
+![alt text](/AWS-Workshop/images/5-Workshop/5.5-AI-Security-Analyst-&-Web-Admin/5.5.6-API Gateway/-7$3.png)
 
 - Postman returns the parameters as shown in the figure, which means success

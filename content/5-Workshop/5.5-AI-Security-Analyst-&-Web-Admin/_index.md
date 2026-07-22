@@ -26,7 +26,7 @@ pre : " <b> 5.5. </b> "
 
 + Setting up AWS Lambda and API Gateway to connect the frontend with the AI ​​system.
 
-![alt text](image.png)
+![alt text](/AWS-Workshop/images/5-Workshop/5.5-AI-Security-Analyst-&-Web-Admin/5.5-AI-Security-Analyst-&-Web-Admin/$3.png)
 
 
 

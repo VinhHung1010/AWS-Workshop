@@ -38,7 +38,7 @@ The platform employs a serverless event-driven architecture to ensure complete i
 
 
 
-![Platform Architecture](/images/2-Proposal/platform_architecture.png)  
+![Platform Architecture](/AWS-Workshop/images/2-Proposal/platform_architecture.png)  
 
 
 *AWS Services Used*  

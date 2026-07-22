@@ -38,7 +38,7 @@ Hệ thống sử dụng kiến trúc phân lớp hướng sự kiện và Serve
 
 
 
-![Platform Architecture](/images/2-Proposal/platform_architecture.png)  
+![Platform Architecture](/AWS-Workshop/images/2-Proposal/platform_architecture.png)  
 
 
 

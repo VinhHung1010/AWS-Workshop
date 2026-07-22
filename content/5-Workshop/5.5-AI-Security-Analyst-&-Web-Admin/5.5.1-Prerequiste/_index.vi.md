@@ -10,23 +10,23 @@ pre : " <b> 5.5.1. </b> "
 
 #### Khởi tạo VPC
 
-![alt text](image.png)
+![alt text](/AWS-Workshop/images/5-Workshop/5.5-AI-Security-Analyst-&-Web-Admin/5.5.1-Prerequiste/$3.png)
 
 #### Khởi tạo public subnet và private subnet
 
-![alt text](image-1.png)
+![alt text](/AWS-Workshop/images/5-Workshop/5.5-AI-Security-Analyst-&-Web-Admin/5.5.1-Prerequiste/-1$3.png)
 
 #### Khởi tạo internet gateways
 
-![alt text](image-2.png)
+![alt text](/AWS-Workshop/images/5-Workshop/5.5-AI-Security-Analyst-&-Web-Admin/5.5.1-Prerequiste/-2$3.png)
 
 #### Khởi tạo NAT gateway
 
-![alt text](image-3.png)
+![alt text](/AWS-Workshop/images/5-Workshop/5.5-AI-Security-Analyst-&-Web-Admin/5.5.1-Prerequiste/-3$3.png)
 
 #### Khởi tạo Route Table
 
-![alt text](image-4.png)
+![alt text](/AWS-Workshop/images/5-Workshop/5.5-AI-Security-Analyst-&-Web-Admin/5.5.1-Prerequiste/-4$3.png)
 
 ### Chuẩn bị máy chủ EC2
 
@@ -34,11 +34,11 @@ pre : " <b> 5.5.1. </b> "
 
 Bastion Host (Public Subnet)
 
-![alt text](image-5.png)
+![alt text](/AWS-Workshop/images/5-Workshop/5.5-AI-Security-Analyst-&-Web-Admin/5.5.1-Prerequiste/-5$3.png)
 
 AI Server (Private Subnet)
 
-![alt text](image-6.png)
+![alt text](/AWS-Workshop/images/5-Workshop/5.5-AI-Security-Analyst-&-Web-Admin/5.5.1-Prerequiste/-6$3.png)
 
 ### Chuẩn bị Security Group
 
@@ -46,16 +46,16 @@ Cấu hình Security Group cho các EC2.
 
 Bastion Host (Public Subnet)
 
-![alt text](image-8.png)
+![alt text](/AWS-Workshop/images/5-Workshop/5.5-AI-Security-Analyst-&-Web-Admin/5.5.1-Prerequiste/-8$3.png)
 
 AI Server (Private Subnet)
 
-![alt text](image-7.png)
+![alt text](/AWS-Workshop/images/5-Workshop/5.5-AI-Security-Analyst-&-Web-Admin/5.5.1-Prerequiste/-7$3.png)
 
 ### Chuẩn bị IAM Role
 
 Tạo IAM Role
 
-![alt text](image-9.png)
+![alt text](/AWS-Workshop/images/5-Workshop/5.5-AI-Security-Analyst-&-Web-Admin/5.5.1-Prerequiste/-9$3.png)
 
 

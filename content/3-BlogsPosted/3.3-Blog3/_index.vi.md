@@ -36,7 +36,7 @@ Nhưng Config chỉ **phát hiện** — nó không tự sửa. Để tự độ
 ## Kiến trúc Auto-Remediation
 
 
-![Auto-Remediation Architecture](/images/3-Blog/blog3_auto_remediation.png)
+![Auto-Remediation Architecture](/AWS-Workshop/images/3-Blog/blog3_auto_remediation.png)
 
 
 Flow hoạt động:
