@@ -31,7 +31,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 20/04/2026 to 30/07/2026
 
-<img src="/images/hz.png" alt="Avatar" style="display: block; margin: 0 auto; width: 30%; height: auto; max-width: 250px; border-radius: 15px;">
+<img src="/AWS-Workshop/images/hz.png" alt="Avatar" style="display: block; margin: 0 auto; width: 30%; height: auto; max-width: 250px; border-radius: 15px;">
 
 ### Report Content
 

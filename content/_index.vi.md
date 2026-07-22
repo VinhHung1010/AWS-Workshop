@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 20/04/2026 đến ngày 30/07/2026
 
-<img src="/images/hz.png" alt="Avatar" style="display: block; margin: 0 auto; width: 30%; height: auto; max-width: 250px; border-radius: 15px;">
+<img src="/AWS-Workshop/images/hz.png" alt="Avatar" style="display: block; margin: 0 auto; width: 30%; height: auto; max-width: 250px; border-radius: 15px;">
 
 
 
