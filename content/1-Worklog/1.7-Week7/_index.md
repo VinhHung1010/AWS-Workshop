@@ -1,57 +1,44 @@
 ---
 title: "Week 7 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-06-01
+weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+
 
 
 ### Week 7 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Deepen expertise in advanced AWS Identity and Access Management (IAM), focusing on temporary credentials, multi-factor condition constraints, and cross-account or administrative role assumption.
+* Implement production-grade cloud security audits, encryption strategies using AWS KMS for object storage, and centralized log analytics via AWS CloudTrail and Amazon Athena.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                         |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 32  | **Completed IAM Role Assumption & EC2 Access Labs:** <br> - **Module 05-Lab28-5.1 to 5.2.5:** Switched roles, initiated secure EC2 access pathways, created EC2 instances, edited resource tags, and verified policy constraints <br> - **Module 05-Lab28-6:** Cleaned up active lab infrastructure | 1/6/2026 | 1/6/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 33  | **Completed Policy Restriction & Principle of Least-Privilege Labs:** <br> - **Module 05-Lab30-3 to Lab30-5:** Created restriction policies, provisioned limited IAM users, and vigorously tested permission boundaries <br> - **Module 05-Lab30-6:** Executed post-lab environment cleanup | 2/6/2026 | 2/6/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 34  | **Completed Cryptography, Governance Auditing, and Log Analytics Labs:** <br> - **Module 05-Lab33-2.1 to 4.2:** Configured KMS encryption keys, provisioned S3 buckets, and uploaded encrypted data objects <br> - **Module 05-Lab33-5.1 to 5.3:** Set up AWS CloudTrail logging and deployed Amazon Athena for granular log query analytics | 3/6/2026 | 3/6/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 35  | **Completed Encrypted Data Sharing & Enterprise IAM Cross-Access Labs:** <br> - **Module 05-Lab33-6 & 33-7:** Tested secure sharing protocols for KMS-encrypted S3 data, followed by resource cleanup <br> - **Module 05-Lab44-2 to 4.2:** Formed IAM groups, created separate IAM users, ran permission checks, and initialized administrative Switch Role configurations | 4/6/2026 | 4/6/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 36  | **Completed Advanced Context Restrictions & Key Management Labs:** <br> - **Module 05-Lab44-4.3.1 to 5:** Restricted switch role operations using IP-address and time-based conditions, followed by cleanup <br> - **Module 05-Lab48-1.1 to 4:** Deployed EC2/S3, generated short-term access keys, compared static credentials against IAM Roles via the AWS CLI, and performed environment cleanup | 5/6/2026 | 5/6/2026 | https://cloudjourney.awsstudygroup.com/ |
 
 
 ### Week 7 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Mastered secure resource authorization via dynamic IAM Roles**, successfully applying role-assumption mechanics and temporary security credentials to replace high-risk long-term authentication variables.
 
-* Successfully created and configured an AWS Free Tier account.
+* **Advanced capabilities in constructing rigid security baselines**, designing complex, granular IAM policies to enforce the Principle of Least Privilege (PoLP) while setting strict permission boundaries.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* **Implemented comprehensive cloud data governance and cryptography setups**, managing encryption keys dynamically via AWS Key Management Service (KMS) to secure sensitive object stores inside Amazon S3.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* **Operationalized real-time infrastructure auditing and security monitoring infrastructures**, linking active AWS CloudTrail tracking engines with distributed Amazon S3 log buckets to preserve non-repudiable transaction histories.
 
-* Used AWS CLI to perform basic operations such as:
+* **Developed advanced security log analysis mechanisms**, orchestrating serverless SQL query protocols in Amazon Athena to parse, inspect, and identify specific system activities out of compiled CloudTrail audit trails.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* **Engineered multi-layered enterprise user access models**, establishing group-based administration policies, launching designated administrative roles, and configuring secure profile-switching frameworks.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Hardened environment network boundaries using context-aware policy conditions**, successfully restricting administrative role-switching access variables based on precise source IP addresses and specific time-window brackets.
+
+* **Demonstrated operational proficiency in CLI credential configurations**, evaluating programmatic authentication approaches to prove the security advantages of EC2 IAM instances over hard-coded access keys.
+
+* **Enforced continuous cloud cost optimization principles**, consistently executing resource deletion protocols across all lab components to avoid unnecessary billing charges.

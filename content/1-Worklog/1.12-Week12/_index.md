@@ -1,57 +1,43 @@
 ---
 title: "Week 12 Worklog"
-date: 2024-01-01
-weight: 2
+date: 2026-07-06
+weight: 12
 chapter: false
 pre: " <b> 1.12. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+
 
 
 ### Week 12 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Master advanced ETL data transformation workflows and automatic schema discovery using AWS Glue Interactive Sessions, graphical interfaces, and AWS Glue DataBrew.
+* Implement large-scale big data processing, hybrid streaming analytics, and serverless data delivery layers across Amazon EMR, Amazon Athena, and Amazon Kinesis.
+* Deliver enterprise-grade operational Business Intelligence (BI) insights by constructing multi-dimensional interactive dashboards in Amazon QuickSight and data warehousing models in Amazon Redshift.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                         |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 57  | **Visual Data Preparation & Profiling:** <br> - Configured AWS Glue DataBrew environment and generated comprehensive data profiles <br> - Cleansed missing, corrupt, or inconsistent dataset values <br> - Formulated and applied transformation recipes to validate data quality | 06/07/2026 | 06/07/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 58  | **Analytics Staging & Catalog Integration:** <br> - Initialized the dedicated cloud analytics environment <br> - Ingested target big data datasets into secure Amazon S3 structures <br> - Cataloged assets and mapped technical metadata within the AWS Glue Data Catalog | 07/07/2026 | 07/07/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 59  | **Multi-Approach ETL Pipeline Engineering:** <br> - Performed dynamic programmatic transformations using AWS Glue Interactive Sessions <br> - Constructed graphical visual ETL jobs using the AWS Glue Studio GUI interface <br> - Refined data processing structures utilizing AWS Glue DataBrew | 08/07/2026 | 08/07/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 60  | **Distributed Big Data & Real-Time Analytics:** <br> - Processed heavy analytical workloads over distributed Apache Spark clusters using Amazon EMR <br> - Queried structural tables using serverless Amazon Athena <br> - Executed real-time stream analysis through Amazon Kinesis Data Analytics | 09/07/2026 | 09/07/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 61  | **Enterprise Warehousing & Interactive BI Delivery:** <br> - Deployed serverless data distribution endpoints via AWS Lambda <br> - Standardized data warehousing structures on Amazon Redshift clusters <br> - Engineered multi-dimensional interactive dashboards with advanced filters using Amazon QuickSight | 10/07/2026 | 10/07/2026 | https://cloudjourney.awsstudygroup.com/ |
 
 
 ### Week 12 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Mastered visual data preparation and data quality optimization techniques**, leveraging AWS Glue DataBrew to profile complex datasets, isolate anomalies, and enforce structural transformations via reusable data recipes.
 
-* Successfully created and configured an AWS Free Tier account.
+* **Successfully engineered high-throughput cloud data ingestion workflows**, organizing landing zones within Amazon S3 and leveraging the AWS Glue Data Catalog to centralize metadata definitions for subsequent processing layers.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* **Developed comprehensive cross-platform ETL engineering capabilities**, demonstrating proficiency in executing data transformation paths using code-based AWS Glue Interactive Sessions, no-code graphical interfaces (GUI), and visual DataBrew engines.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* **Acquired specialized competencies in distributed big data cluster architectures**, leveraging Amazon EMR environments to execute large-scale distributed batch computing workloads efficiently.
 
-* Used AWS CLI to perform basic operations such as:
+* **Successfully implemented hybrid data warehouse analytics frameworks**, managing real-time data streaming insights via Amazon Kinesis Data Analytics while executing concurrent serverless SQL querying tasks with Amazon Athena.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* **Engineered decoupled serverless microservices for analytical applications**, orchestrating serverless data delivery pathways using AWS Lambda triggers to route processed outputs into Amazon Redshift data warehouses.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Delivered end-to-end operational Business Intelligence (BI) report assets**, utilizing Amazon QuickSight to design interactive enterprise dashboards enriched with complex parameters, data filters, and optimized visualization layers.
+
+* **Demonstrated absolute proficiency in the modern cloud data engineering lifecycle**, successfully constructing a complete data value chain from raw streaming/batch ingestion, multi-model ETL processing, and low-latency serving to executive presentation layers.

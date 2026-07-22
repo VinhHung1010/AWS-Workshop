@@ -1,57 +1,40 @@
 ---
 title: "Week 10 Worklog"
-date: 2024-01-01
-weight: 2
+date: 2026-06-22
+weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+
 
 
 ### Week 10 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Design and implement an end-to-end cloud-native data analytics pipeline on AWS, spanning streaming data ingestion, automated cataloging, serverless querying, and business intelligence visualization.
+* Gain comprehensive hands-on experience integrating core AWS analytics services including Kinesis Data Firehose, AWS Glue, Amazon Athena, and Amazon QuickSight into a unified data engineering workflow.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                         |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 47  | **Streaming Data Ingestion Pipeline:** <br> - Created an Amazon S3 bucket for incoming raw streaming storage <br> - Provisioned and configured an Amazon Kinesis Data Firehose delivery stream <br> - Generated real-time sample data to test and validate pipeline ingestion paths | 22/6/2026 | 22/6/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 48  | **Automated Data Schema Discovery:** <br> - Created an AWS Glue Crawler to scan raw data inside Amazon S3 <br> - Automatically discovered datasets, generated metadata, and populated the AWS Glue Data Catalog <br> - Validated the accuracy of table structures and data schemas | 23/6/2026 | 23/6/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 49  | **Data Processing Workflow Execution:** <br> - Reviewed and explained application code logic used within the data processing stream <br> - Configured target S3 locations for processed output storage <br> - Initialized session connections required for processing services and executed workflows | 24/6/2026 | 24/6/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 50  | **Serverless Data Warehouse Querying:** <br> - Configured Amazon Athena to interface with S3 data layers <br> - Executed serverless SQL queries directly against schemas defined in the Glue Data Catalog <br> - Validated and analyzed large structural datasets without instance management | 25/6/2026 | 25/6/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 51  | **Business Intelligence & Lifecycle Management:** <br> - Connected Amazon QuickSight to active Athena datasets <br> - Built operational charts and business reports via interactive dashboards <br> - Performed standard cleanup routines to tear down the analytics infrastructure and control costs | 26/6/2026 | 26/6/2026 | https://cloudjourney.awsstudygroup.com/ |
 
 
 ### Week 10 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Engineered robust serverless streaming ingestion architectures**, successfully configuring Amazon Kinesis Data Firehose delivery streams to capture, batch, and deliver high-volume streaming data into Amazon S3 storage origins.
 
-* Successfully created and configured an AWS Free Tier account.
+* **Mastered automated metadata discovery and cataloging rules**, leveraging AWS Glue Crawlers to automatically parse unstructured datasets, infer exact table structures, and build centralized data definitions within the AWS Glue Data Catalog.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* **Developed deep competencies in data processing workflow logic**, evaluating underlying processing codes, establishing secure runtime connections, and routing transformed output datasets back to persistent object storage targets.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* **Implemented operational serverless log analytics frameworks**, using Amazon Athena to perform distributed, complex SQL queries directly over compressed data lakes mapped by the Glue catalog schema.
 
-* Used AWS CLI to perform basic operations such as:
+* **Successfully delivered end-to-end Business Intelligence (BI) visualization setups**, connecting Amazon QuickSight directly to active Athena query schemas to produce functional dashboard matrices and rich operational reports for corporate stakeholders.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* **Demonstrated absolute proficiency in the modern AWS Data Engineering stack**, successfully constructing a comprehensive data lifecycle pathway from raw real-time streaming data ingestion to executive data analytics dashboards.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Maintained cost-effective cloud governance practices**, executing rigorous post-lab environment cleanups (deleting active Kinesis streams, dropping Glue metadata tables, cleaning out test S3 data buckets, and closing BI connections) to prevent idle billing charges.

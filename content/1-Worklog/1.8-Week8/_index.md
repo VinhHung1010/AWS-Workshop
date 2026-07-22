@@ -1,57 +1,40 @@
 ---
 title: "Week 8 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-06-08
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+
 
 
 ### Week 8 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Master foundational and advanced cloud database paradigms, comparing transactional (OLTP) and analytical (OLAP) workloads across managed relational platforms and in-memory caching solutions.
+* Acquire hands-on experience architectural design by preparing isolated network infrastructures and securely deploying integrated multi-tier database-driven application environments on AWS.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                         |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 37  | **Database Concepts Review:** <br> - Reviewed fundamental relational and non-relational database models <br> - Studied primary/foreign keys, indexes, and constraints <br> - Compared OLTP vs OLAP database workloads and cloud database deployment architectures | 8/6/2026 | 8/6/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 38  | **Managed Relational Databases Study:** <br> - Studied Amazon RDS managed database services <br> - Explored Amazon Aurora architecture and performance advantages <br> - Analyzed Multi-AZ high availability deployments, Read Replicas, and backup/recovery mechanisms | 9/6/2026 | 9/6/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 39  | **Data Warehousing & Caching Architectures:** <br> - Learned about Amazon Redshift cloud data warehouse solution for business analytics <br> - Studied Amazon ElastiCache (Redis and Memcached) and caching mitigation strategies to reduce database workloads | 10/6/2026 | 10/6/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 40  | **Completed RDS Networking Infrastructure Labs:** <br> - **Module 06-Lab05-2.1 to 2.4:** Configured custom networking components for Amazon RDS, created dedicated Security Groups for EC2 and database access, and provisioned DB Subnet Groups | 11/6/2026 | 11/6/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 41  | **Completed Multi-Tier Application & Database Deployment Labs:** <br> - **Module 06-Lab05-3 to 5:** Launched EC2 nodes, created Amazon RDS database instances within a VPC, established secure secure cross-tier security rules, and deployed a live sample application <br> - **Module 06-Lab05-6 & 7:** Conducted manual backup/restore validation testing for disaster recovery, and executed thorough final resource cleanup | 12/6/2026 | 12/6/2026 | https://cloudjourney.awsstudygroup.com/ |
 
 
 ### Week 8 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Solidified core database engineering fundamentals**, mastering structural differences between relational and non-relational schemas, data normalization constraints, and target use cases for transactional (OLTP) versus analytical (OLAP) system configurations.
 
-* Successfully created and configured an AWS Free Tier account.
+* **Developed deep theoretical competencies in AWS managed database topologies**, evaluating the architectural scalability of Amazon RDS and the performance/storage replication advantages of cloud-native Amazon Aurora.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* **Gained specialized insight into big data analytics and low-latency response architectures**, learning to deploy cloud data warehouses via Amazon Redshift and leverage in-memory caching layers via Amazon ElastiCache (Redis/Memcached) to offload heavy read database operations.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* **Successfully designed secure isolated network boundaries for database tiers**, provisioning custom DB Subnet Groups across isolated private subnets and establishing restrictive multi-layered firewall pathways via precise Security Group pairings.
 
-* Used AWS CLI to perform basic operations such as:
+* **Successfully deployed a complete database-driven application architecture on AWS**, integrating a live web application layer hosted on Amazon EC2 with a managed backend engine powered by Amazon RDS.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* **Mastered operational disaster recovery and data retention protocols**, validating data lifecycle safety rules by creating manual backup recovery snapshots and executing full recovery restorations to guarantee uninterrupted business application continuity.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Enforced continuous cloud cost optimization principles**, systematically running thorough post-lab cleanup routines to terminate active compute nodes and wipe database cluster storage instances to prevent unnecessary account billings.

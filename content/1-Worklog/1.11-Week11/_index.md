@@ -1,57 +1,42 @@
 ---
 title: "Week 11 Worklog"
-date: 2024-01-01
-weight: 2
+date: 2026-06-29
+weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+
 
 
 ### Week 11 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Master NoSQL database management and advanced design patterns using Amazon DynamoDB, focusing on global serverless deployment and event-driven architectures.
+* Explore multi-interface cloud resource orchestration methods (Console, CloudShell, SDK) and build cloud development baselines using AWS Cloud9 for data engineering pipelines.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                         |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 52  | **NoSQL Database Core Engineering:** <br> - Explored Amazon DynamoDB architecture and core concepts <br> - Created and managed functional DynamoDB tables <br> - Configured partition keys, analyzed table properties, and executed basic CRUD operations via the console | 29/06/2026 | 29/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 53  | **Advanced NoSQL Design Patterns & Event-Driven Flows:** <br> - Configured DynamoDB backup and disaster recovery schedules <br> - Studied advanced structural database design patterns <br> - Explored global serverless setups and built serverless event-driven architectures with AWS services | 30/06/2026 | 30/06/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 54  | **Database Cost Optimization & Query Validation:** <br> - Inserted sample data and executed additional data queries <br> - Evaluated AWS cost monitoring and resource usage metrics <br> - Configured custom allocation resource tags and performed environment cleanups | 01/07/2026 | 01/07/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 55  | **Multi-Interface Infrastructure Orchestration:** <br> - Utilized browser-based AWS CloudShell command-line environments <br> - Programmed resource automation loops using the AWS Software Development Kit (SDK) <br> - Evaluated operational trade-offs between Console, CLI, and SDK workflows | 02/07/2026 | 02/07/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 56  | **Cloud Integrated Development & Data Staging:** <br> - Provisioned an AWS Cloud9 cloud-based IDE instance <br> - Ingested target datasets into the workspace <br> - Transferred staging data structures into Amazon S3 storage buckets to prepare for data transformation tasks | 03/07/2026 | 03/07/2026 | https://cloudjourney.awsstudygroup.com/ |
 
 
 ### Week 11 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Mastered high-performance NoSQL database management infrastructure**, successfully building and querying schema-less data stores via Amazon DynamoDB by mapping custom partition keys and structural attributes.
 
-* Successfully created and configured an AWS Free Tier account.
+* **Engineered scalable serverless event-driven data pipelines**, leveraging advanced DynamoDB structural layout strategies and integration mechanisms to drive automated application architectures.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* **Implemented strict database business continuity protocols**, deploying standard backup restoration pipelines for DynamoDB tables to guard against transactional errors.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* **Developed deep expertise in cloud financial operations (FinOps) for databases**, tracking granular usage metrics and embedding target resource tagging policies to enable precision cost allocation models.
 
-* Used AWS CLI to perform basic operations such as:
+* **Acquired multi-layer cloud interaction competencies**, confidently shifting operations across the visual Management Console, command-line CloudShell structures, and programmatic API interactions using the AWS SDK.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* **Establish centralized cloud-native development environments**, provisioning AWS Cloud9 integrated IDE spaces to streamline data engineering script compiling and repository management.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Orchestrated structured data staging pipelines for advanced analytics**, establishing landing pathways inside Amazon S3 and organizing data pipelines to lay the groundwork for high-throughput automated transformations.
+
+* **Maintained cost-effective cloud governance practices**, executing rigorous environment teardowns across all completed storage nodes, active compute workspaces, and temporary test databases.

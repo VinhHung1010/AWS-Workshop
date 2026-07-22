@@ -1,57 +1,41 @@
 ---
 title: "Week 6 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-05-25
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+
 
 
 ### Week 6 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Master AWS security fundamentals, including the Shared Responsibility Model, Identity and Access Management (IAM), and Amazon Cognito.
+* Implement enterprise-level security governance, centralized multi-account management, encryption (KMS), and automated security compliance monitoring.
+* Develop operational automation skills using serverless architectures (AWS Lambda) and resource governance strategies (Tagging, Resource Groups, IAM policy management).
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                         |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 27  | **Security Fundamentals:** <br> - Studied AWS Shared Responsibility Model <br> - IAM deep dive: users, groups, policies, and roles <br> - Amazon Cognito: User Pools, Identity Pools, and app integration | 25/5/2026 | 25/5/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 28  | **Governance & Enterprise Security:** <br> - AWS Organizations (multi-account management) <br> - AWS Identity Center (SSO) <br> - AWS Key Management Service (KMS) <br> - AWS Security Hub for compliance monitoring | 26/5/2026 | 26/5/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 29  | **Security Compliance Lab:** <br> - **Module 05-Lab18:** Enabled AWS Security Hub <br> - Analyzed security scores, compliance criteria, and findings <br> - Performed resource cleanup | 27/5/2026 | 27/5/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 30  | **Serverless Automation Lab:** <br> - Infrastructure setup (VPC, Security Groups, EC2) <br> - Configured Slack webhooks for notifications <br> - Automated EC2 start/stop operations using IAM Roles and AWS Lambda functions | 28/5/2026 | 28/5/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 31  | **Resource Governance & IAM Management Lab:** <br> - Tag management (Create, Filter, CLI usage) <br> - Resource Grouping <br> - Advanced IAM administration (Users, Policies, Roles) | 29/5/2026 | 29/5/2026 | https://cloudjourney.awsstudygroup.com/ |
 
 
 ### Week 6 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Internalized the AWS Shared Responsibility Model**, gaining a clear distinction between security *of* the cloud versus security *in* the cloud to better manage architectural risks.
 
-* Successfully created and configured an AWS Free Tier account.
+* **Mastered identity and access management configurations**, successfully deploying IAM entities (users, groups, roles, policies) and integrating Amazon Cognito for scalable, secure user authentication workflows.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* **Deployed centralized enterprise governance frameworks**, leveraging AWS Organizations for account management and AWS Identity Center for unified Single Sign-On (SSO) across the organization.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* **Enhanced security posture through automated monitoring and encryption**, actively managing cryptographic keys via AWS KMS and operationalizing AWS Security Hub to generate actionable compliance scores and vulnerability findings.
 
-* Used AWS CLI to perform basic operations such as:
+* **Engineered event-driven serverless automation**, successfully building an automated environment where AWS Lambda interacts with EC2 instances based on triggers, integrated with real-time Slack notifications for operational awareness.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* **Established rigorous resource governance standards**, implementing tagging policies to filter, organize, and manage large-scale cloud footprints using AWS Resource Groups and CLI commands.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Demonstrated advanced IAM administration**, crafting specific IAM Policies and Roles to enforce the Principle of Least Privilege (PoLP), ensuring secure access control across all provisioned lab resources.
