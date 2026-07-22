@@ -7,7 +7,7 @@ pre: " <b> 4.1. </b> "
 ---
 
 ### [Event 1](4.1-Event1/)
-&emsp;**Tên sự kiện:** Meet up 30/5/2026
+&emsp;**Tên sự kiện:** Meet up 30/5
 
 &emsp;**Thời gian:** 09:00 ngày 30/05/2026
 
@@ -110,6 +110,15 @@ Tham gia workshop là một trải nghiệm toàn diện và vô cùng đắt gi
 - **Môi trường kết nối tuyệt vời:** Workshop tạo cơ hội giao lưu, trao đổi văn hóa DevOps, cùng chia sẻ những khó khăn thực chiến trong quá trình làm dự án, giúp củng cố tinh thần "Go Build" và học hỏi không ngừng[cite: 1, 5].
 
 #### Một số hình ảnh khi tham gia sự kiện
-* [Chèn các hình ảnh check-in sự kiện, slide nổi bật hoặc ảnh chụp cùng cộng đồng tại đây]*
+
+*Hình ảnh được ghi lại trong workshop - check-in, các phần trình bày và cộng đồng.*
+
+![Event 1 - Khoảnh khắc cộng đồng và workshop 1](/AWS-Workshop/images/4-Event/event1.png)
+
+![Event 1 - Khoảnh khắc cộng đồng và workshop 2](/AWS-Workshop/images/4-Event/event2.png)
+
+![Event 1 - Email xác nhận 1](/AWS-Workshop/images/4-Event/confirmation1.png)
+
+![Event 1 - Email xác nhận 2](/AWS-Workshop/images/4-Event/confirmation2.png)
 
 > **Tổng kết:** Sự kiện đã phá vỡ rào cản thông thường của một workshop công nghệ bằng cách kết hợp hoàn hảo giữa Kỹ thuật đám mây thực chiến với Nghệ thuật quản trị con người (DevOps, Sự tự tin, Vượt qua nỗi sợ Trì hoãn)[cite: 1, 2, 3, 4, 5]. Đây chính là bệ phóng tư duy quan trọng giúp tôi hoàn thiện năng lực của một Kỹ sư Điện toán đám mây toàn diện.

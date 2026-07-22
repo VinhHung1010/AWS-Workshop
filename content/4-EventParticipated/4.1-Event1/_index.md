@@ -7,7 +7,7 @@ pre: " <b> 4.1. </b> "
 ---
 
 ### [Event 1](4.1-Event1/)
-&emsp;**Event Name:** Meet up 30/5/2026
+&emsp;**Event Name:** Meet up 30/5
 
 &emsp;**Date & Time:** 09:00, May 30, 2026
 
@@ -110,6 +110,15 @@ Attending this workshop was an exceptionally comprehensive and high-value experi
 - **Exceptional Network Synergy:** The workshop established an outstanding collaborative environment to discuss DevOps cultures, share battle-tested project challenges, and exchange hackathon strategies, fully reinforcing a continuous "Go Build" mindset[cite: 1, 5].
 
 #### Event Visuals
-* [Insert event check-in photos, key presentation slide captures, or community group portraits here]*
+
+*Photos captured during the workshop - check-in, presentations, and the community.*
+
+![Event 1 - Community and workshop moments 1](/AWS-Workshop/images/4-Event/event1.png)
+
+![Event 1 - Community and workshop moments 2](/AWS-Workshop/images/4-Event/event2.png)
+
+![Event 1 - Confirmation email 1](/AWS-Workshop/images/4-Event/confirmation1.png)
+
+![Event 1 - Confirmation email 2](/AWS-Workshop/images/4-Event/confirmation2.png)
 
 > **Conclusion:** The workshop successfully transcended the boundaries of a standard tech seminar by seamlessly blending practical cloud execution architectures (AWS, Floci) with the fine art of organizational psychology (DevOps, Presentation Confidence, Overcoming Procrastination)[cite: 1, 2, 3, 4, 5]. It has provided an invaluable mental launchpad that will significantly shape my path toward becoming a well-rounded Cloud Engineer.
