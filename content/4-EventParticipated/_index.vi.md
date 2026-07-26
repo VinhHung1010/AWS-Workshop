@@ -43,11 +43,11 @@ Trong quá trình thực tập, em đã tham gia 3 events, với mỗi event là
 &emsp;**Vai trò trong sự kiện:** Người tham dự 
 
 ### [Event 3](4.3-Event3/)
-&emsp;**Tên sự kiện:** AABW Hackathon Showcase - Vòng chung kết Top 8
+&emsp;**Tên sự kiện:** FCAJ - AGENTIC AI BUILD WEEK
 
-&emsp;**Thời gian:** 09:00 - 18:00 ngày 12/07/2026
+&emsp;**Thời gian:** 09:00 - 12:00 ngày 25/07/2026
 
-&emsp;**Địa điểm:** Văn phòng AWS Việt Nam, tòa nhà Bitexco, thành phố Hồ Chí Minh
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
-&emsp;**Vai trò trong sự kiện:** Người tham dự (Khán giả Showcase & Peer Reviewer)
+&emsp;**Vai trò trong sự kiện:** Người tham dự 
 

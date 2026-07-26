@@ -1,25 +1,25 @@
 ---
 title: "Event 3"
-date: 2026-07-12
+date: 2026-07-25
 weight: 3
 chapter: false
 pre: " <b> 4.3. </b> "
 ---
 
 ### [Event 3](4.3-Event3/)
-&emsp;**Event Name:** AABW Hackathon Showcase - Top 8 Finals
+&emsp;**Name:** FCAJ - AGENTIC AI BUILD WEEK
 
-&emsp;**Date & Time:** 09:00 - 18:00, July 12, 2026
+&emsp;**Date & Time:** 09:00 - 12:00, July 25, 2026
 
-&emsp;**Location:** AWS Vietnam Office, Bitexco Tower, Ho Chi Minh City
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 
-&emsp;**Role:** Attendee (Showcase Audience & Peer Reviewer)
+&emsp;**Role:** Attendee  
 
 ### Event Objectives
 
-- Showcase the eight finalist teams of the AABW (Amazon Agentic AI Build Week) Hackathon, presenting their end-to-end agentic-AI products built on AWS Bedrock, AgentCore, and SageMaker[cite: 1, 4].
+- Feature the projects built during the **FCAJ Agentic AI Build Week** - a half-day community session where participating teams present their end-to-end agentic-AI products built on AWS Bedrock, AgentCore, and SageMaker[cite: 1, 4].
 - Promote cross-pollination of architectural patterns between AI/ML, Computer Vision, Conversational Agents, and Enterprise Search platforms[cite: 2, 3].
-- Provide a public-stage platform for the eight teams to validate their MVPs against a panel of AWS Solution Architects, startup founders, and AI mentors[cite: 1, 4].
+- Provide a public-stage platform for the teams to validate their MVPs against a panel of AWS Solution Architects, startup founders, and AI mentors[cite: 1, 4].
 - Connect the wider First Cloud AI Journey community with the next wave of GenAI builders through live demos, transparent cost discussions, and Q&A sessions[cite: 1, 2, 3, 4].
 
 ### Featured Teams & Projects
@@ -87,7 +87,7 @@ pre: " <b> 4.3. </b> "
 
 ### Personal Event Experience
 
-Attending the AABW Hackathon Showcase as an audience member was one of the most energising events of the entire internship:
+Attending the FCAJ Agentic AI Build Week as an audience member was one of the most energising events of the entire internship:
 
 - **Eight MVPs, eight real architectures:** Each finalist presented not just a demo but a complete agent stack - tools, prompts, cost breakdown, and an honest list of what they would build next. The technical depth exceeded many commercial GenAI launches[cite: 1, 2, 3, 4].
 - **A clear snapshot of where GenAI is going:** Seeing four different verticals (conversational commerce, architecture copilot, enterprise intel, real-time CV) converge on the same Bedrock AgentCore + tool-grounded patterns was a strong signal that the agentic-AI abstraction is ready for production[cite: 1, 2, 3, 4].
@@ -96,14 +96,14 @@ Attending the AABW Hackathon Showcase as an audience member was one of the most 
 
 #### Event Visuals
 
-*Photos captured during the AABW Hackathon Showcase - the eight finalist teams, the AWS Vietnam venue, and the community moment.*
+*Photos captured during the FCAJ Agentic AI Build Week session - the participating teams, the AWS Vietnam venue, and the community moment.*
 
-![Event 3 - Hackathon Showcase opening and venue 1](/AWS-Workshop/images/4-Event/event%203.png)
+![Event 3 - FCAJ Agentic AI Build Week opening and venue 1](/AWS-Workshop/images/4-Event/event%203.png)
 
-![Event 3 - Hackathon Showcase teams and demos 2](/AWS-Workshop/images/4-Event/event%203%20(2).png)
+![Event 3 - FCAJ Agentic AI Build Week teams and demos 2](/AWS-Workshop/images/4-Event/event%203%20(2).png)
 
-![Event 3 - Hackathon Showcase finalists and Q&A 3](/AWS-Workshop/images/4-Event/event%203%20(3).png)
+![Event 3 - FCAJ Agentic AI Build Week finalists and Q&A 3](/AWS-Workshop/images/4-Event/event%203%20(3).png)
 
 ![Event 3 - Confirmation email](/AWS-Workshop/images/4-Event/email%20xac%20nhan.png)
 
-> **Conclusion:** The AABW Hackathon Showcase was a vivid demonstration that agentic AI on AWS has matured beyond prototypes. By combining Bedrock AgentCore, SageMaker, and grounded tool design, all eight finalist teams shipped measurable products with transparent cost, latency, and explainability budgets[cite: 1, 2, 3, 4]. It left the whole community - including me - with a concrete template for the next generation of cloud-native AI applications.
+> **Conclusion:** The FCAJ Agentic AI Build Week was a vivid demonstration that agentic AI on AWS has matured beyond prototypes. By combining Bedrock AgentCore, SageMaker, and grounded tool design, all participating teams shipped measurable products with transparent cost, latency, and explainability budgets[cite: 1, 2, 3, 4]. It left the whole community - including me - with a concrete template for the next generation of cloud-native AI applications.

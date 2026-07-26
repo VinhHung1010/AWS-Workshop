@@ -44,10 +44,10 @@ During my internship, I participated in three events. Each one was a memorable e
 ---
 
 ### [Event 3](4.3-Event3/)  
-&emsp;**Event Name:** AABW Hackathon Showcase - Top 8 Finals
+&emsp;**Name:** FCAJ - AGENTIC AI BUILD WEEK
 
-&emsp;**Date & Time:** 09:00 - 18:00, July 12, 2026
+&emsp;**Date & Time:** 09:00 - 12:00, July 25, 2026
 
-&emsp;**Location:** AWS Vietnam Office, Bitexco Tower, Ho Chi Minh City  
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 
-&emsp;**Role:** Attendee (Showcase Audience & Peer Reviewer)  
+&emsp;**Role:** Attendee  

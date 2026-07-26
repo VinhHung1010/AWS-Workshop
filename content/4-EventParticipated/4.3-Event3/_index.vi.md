@@ -1,23 +1,23 @@
 ---
 title: "Event 3"
-date: 2026-07-12
+date: 2026-07-25
 weight: 3
 chapter: false
 pre: " <b> 4.3. </b> "
 ---
 
 ### [Event 3](4.3-Event3/)
-&emsp;**Tên sự kiện:** AABW Hackathon Showcase - Vòng chung kết Top 8
+&emsp;**Tên sự kiện:** FCAJ - AGENTIC AI BUILD WEEK
 
-&emsp;**Thời gian:** 09:00 - 18:00 ngày 12/07/2026
+&emsp;**Thời gian:** 09:00 - 12:00 ngày 25/07/2026
 
-&emsp;**Địa điểm:** Văn phòng AWS Việt Nam, tòa nhà Bitexco, thành phố Hồ Chí Minh
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
-&emsp;**Vai trò trong sự kiện:** Người tham dự (Khán giả Showcase & Peer Reviewer)
+&emsp;**Vai trò trong sự kiện:** Người tham dự 
 
 ### Mục Đích Của Sự Kiện
 
-- Trình diễn 8 đội thi cuối cùng của AABW (Amazon Agentic AI Build Week) Hackathon, giới thiệu các sản phẩm agentic AI end-to-end được xây dựng trên AWS Bedrock, AgentCore và SageMaker[cite: 1, 4].
+- Trình diễn các dự án được xây dựng trong **FCAJ Agentic AI Build Week** - phiên cộng đồng nửa ngày, nơi các đội tham gia giới thiệu sản phẩm agentic AI end-to-end trên AWS Bedrock, AgentCore và SageMaker[cite: 1, 4].
 - Lan tỏa và trao đổi các pattern kiến trúc giữa các lĩnh vực AI/ML, Computer Vision, Conversational Agent và Enterprise Search platform[cite: 2, 3].
 - Cung cấp sân khấu công khai để 8 đội tự kiểm chứng MVP với hội đồng gồm AWS Solution Architect, các founder startup và AI mentor[cite: 1, 4].
 - Kết nối cộng đồng First Cloud AI Journey với thế hệ GenAI builder mới thông qua demo trực tiếp, thảo luận chi phí minh bạch và các phiên Q&A[cite: 1, 2, 3, 4].
@@ -87,7 +87,7 @@ pre: " <b> 4.3. </b> "
 
 ### Trải Nghiệm Cá Nhân Về Sự Kiện
 
-Tham dự AABW Hackathon Showcase với vai trò khán giả là một trong những sự kiện truyền cảm hứng nhất của cả kỳ thực tập:
+Tham dự FCAJ Agentic AI Build Week với vai trò khán giả là một trong những sự kiện truyền cảm hứng nhất của cả kỳ thực tập:
 
 - **Tám MVP, tám kiến trúc thật:** Mỗi đội không chỉ demo mà trình bày một agent stack hoàn chỉnh - tool, prompt, chi phí và danh sách trung thực những gì sẽ xây tiếp. Độ sâu kỹ thuật vượt nhiều launch GenAI thương mại[cite: 1, 2, 3, 4].
 - **Một bức ảnh rõ ràng về nơi GenAI đang đi:** Thấy bốn vertical khác nhau (conversational commerce, architecture copilot, enterprise intel, real-time CV) hội tụ về cùng pattern Bedrock AgentCore + tool-grounded là tín hiệu mạnh cho thấy abstraction agentic-AI đã sẵn sàng cho production[cite: 1, 2, 3, 4].
@@ -96,14 +96,14 @@ Tham dự AABW Hackathon Showcase với vai trò khán giả là một trong nh�
 
 #### Hình ảnh sự kiện
 
-*Hình ảnh ghi lại tại AABW Hackathon Showcase - tám đội thi final, khán phòng AWS Vietnam và khoảnh khắc cộng đồng.*
+*Hình ảnh ghi lại tại phiên FCAJ Agentic AI Build Week - các đội tham gia, khán phòng AWS Vietnam và khoảnh khắc cộng đồng.*
 
-![Event 3 - Hackathon Showcase khai mạc và khán phòng 1](/AWS-Workshop/images/4-Event/event%203.png)
+![Event 3 - FCAJ Agentic AI Build Week khai mạc và khán phòng 1](/AWS-Workshop/images/4-Event/event%203.png)
 
-![Event 3 - Hackathon Showcase các đội và demo 2](/AWS-Workshop/images/4-Event/event%203%20(2).png)
+![Event 3 - FCAJ Agentic AI Build Week các đội và demo 2](/AWS-Workshop/images/4-Event/event%203%20(2).png)
 
-![Event 3 - Hackathon Showcase finalists và Q&A 3](/AWS-Workshop/images/4-Event/event%203%20(3).png)
+![Event 3 - FCAJ Agentic AI Build Week finalists và Q&A 3](/AWS-Workshop/images/4-Event/event%203%20(3).png)
 
 ![Event 3 - Email xác nhận](/AWS-Workshop/images/4-Event/email%20xac%20nhan.png)
 
-> **Kết luận:** AABW Hackathon Showcase là minh chứng sống cho thấy agentic AI trên AWS đã vượt khỏi giai đoạn prototype. Bằng cách kết hợp Bedrock AgentCore, SageMaker và thiết kế tool-grounded, cả 8 đội final đều ship sản phẩm có chi phí, độ trễ và explainability minh bạch[cite: 1, 2, 3, 4]. Sự kiện để lại cho cả cộng đồng - trong đó có tôi - một template cụ thể cho thế hệ ứng dụng cloud-native AI tiếp theo.
+> **Kết luận:** FCAJ Agentic AI Build Week là minh chứng sống cho thấy agentic AI trên AWS đã vượt khỏi giai đoạn prototype. Bằng cách kết hợp Bedrock AgentCore, SageMaker và thiết kế tool-grounded, tất cả các đội tham gia đều ship sản phẩm có chi phí, độ trễ và explainability minh bạch[cite: 1, 2, 3, 4]. Sự kiện để lại cho cả cộng đồng - trong đó có tôi - một template cụ thể cho thế hệ ứng dụng cloud-native AI tiếp theo.
